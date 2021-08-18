@@ -1,0 +1,289 @@
+body {
+    margin: 0;
+}
+.container {
+    padding: 0 !important;
+}
+/* 头部标题 */
+.head .head_title {
+    color: #fff;
+    background: #1c669d;
+    position: fixed;
+    width: 100%;
+    line-height: 2rem;
+    padding-left: 1rem;
+    z-index: 100;
+}
+.head .head_global {
+    padding: 2rem 0 .3rem 1rem;
+    background: #1c669d;
+    font-size: 18px;
+    color: #5dd0f4;
+    font-weight: 900;
+}
+.head .head_now {
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 1rem;
+    background-color: #1c669d;
+}
+
+/* 疫情导航 */
+.epidemic_nav .epidemic_row {
+    padding: 0;
+    margin: 0;
+    background: #1d669d;
+    position: sticky;
+    top: 2rem;
+    z-index: 100;
+}
+.epidemic_nav .epidemic_row li {
+    list-style: none;
+    padding: .5em .5em;
+    text-align: center;
+    color: #9ee1fe;
+}
+.outer_on {
+    padding: 1em;
+    background: linear-gradient(#20689e,#ecf2f6);
+}
+
+/* 轮播图 */
+.china_epidemic .carousel {
+    line-height: 2em;
+    background: #fff;
+    border-radius: 5px;
+}
+.carousel .carousel-inner .carousel-item {
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-left: 2em;
+}
+
+/* 疫情数据统计表 */
+.china_epidemic .epidemic_data {
+    /* height: 300px; */
+    /* background: pink; */
+}
+.epidemic_data_title {
+    font-size: 10px;
+    color: #c1daeb;
+}
+.epidemic_data .row {
+    padding:0 1em;
+    /* border: 1px solid #fff; */
+}
+.epidemic_data .row .col {
+    padding: .5em 0;
+}
+.epidemic_data .row div {
+    text-align: center;
+    padding: 0;
+}
+.epidemic_data .row div div:first-child {
+    font-size: 10px;
+}
+.epidemic_data .row div div:last-child {
+    font-size: 14px;
+    color: #333;
+}
+.epidemic_data .confirmed {
+    color: #dd5d5a;
+    background: #fdf9f8;
+    /* padding-left: 1em; */
+}
+.epidemic_data .infected {
+    color: #fcae50;
+    background: #fffbfa;
+}
+.epidemic_data .input {
+    color: #f9b226;
+    background: #fdf9f8;
+}
+.epidemic_data .count {
+    color: #aa0000;
+    background: #fffcf5;
+    border-left: 1px solid #fff;
+}
+.epidemic_data .cured {
+    color: #62c3b2;
+    background: #f8fcfb;
+}
+.epidemic_data .died {
+    color: #878888;
+    background: #fbfdfc;
+}
+/* 数据表表格 */
+.epidemic_data .table tr{
+    background: #fff;
+    font-size: 12px;
+}
+/* 疫情福利 */
+.china_epidemic .epidemic_welfare {
+    line-height: 2em;
+    background: #fff;
+    border-radius: 5px;
+}
+.epidemic_welfare .col {
+    text-align: center;
+}
+.epidemic_welfare div:first-child span {
+    color: #f46f6e
+}
+.epidemic_welfare div:nth-child(2) span {
+    color: #82c3ec
+}
+.epidemic_welfare div:nth-child(3) span {
+    color: #459feb
+}
+
+.outer_under {
+    padding: .5em 1em;
+}
+/* 疫情地图 */
+.outer_under .china_map {
+    height: 450px;
+    /* background: #eeddff; */
+}
+.china_map_title {
+    font-weight: bold;
+}
+.china_map_time {
+    font-size: 10px;
+    color: #a58888;
+    margin-bottom: .2rem;
+}
+#map {
+    height: 380px;
+}
+#map2 {
+    height: 380px;
+}
+#map3 {
+    height: 380px;
+}
+
+.china_map .nav-pills .nav-link.active {
+    color: #2dd0e3;
+    background: #e9f8fb;
+}
+.china_map .nav-pills .nav-link {
+    font-size: 10px;
+    padding: .2rem .4rem;
+    color: #555;
+    border: 1px solid #dfdfdf;
+    border-radius: 0;
+}
+.china_map .mb-3 {
+    margin: 0 !important;
+}
+/* 境外曲线图 */
+.outer_under .overseas_input {
+    height: 280px;
+    border: 1px solid #f3f3f3;
+}
+#input {
+    height: 250px;
+}
+
+.overseas_input_title {
+    font-weight: bold;
+}
+
+/* 各地区疫情详情 */
+.area_details .table tr th,td{
+    font-size: 12px;
+    padding: .5rem 0;
+}
+.area_details .table tbody tr:first-child,tr:nth-child(2) {
+    background: #e9f8fb;
+}
+.area_details .table tbody tr:last-child,tr:nth-child(3) {
+    background: #f9f9f9;
+}
+.area_details .table tbody tr > td:nth-child(2) {
+    color: #14c1d6;
+}
+.area_details .table tbody tr > td:nth-child(3) {
+    color: #df6d68;
+}
+.area_details_title {
+    font-weight: bold;
+}
+.area_details_tip {
+    font-size: 10px;
+    color: #a58888;
+    margin: .5rem 0 1em 0;
+}
+
+/* ////////////////世界疫情地图 /////////////////*/
+.outer_under .sj_map {
+    height: 450px;
+    /* background: #eeddff; */
+}
+.sj_map_title  .sjqz_title{
+    font-weight: bold;
+}
+.sj_map_time {
+    font-size: 10px;
+    color: #a58888;
+    margin-bottom: .2rem;
+}
+#world {
+    height: 350px;
+    width: 350px;
+}
+
+/* 世界轮播图 */
+.overseas_epidemic .carousel {
+    line-height: 2em;
+    background: #fff;
+    border-radius: 5px;
+}
+ .overseas_epidemic .carousel-item {
+    font-size: 14px;
+    overflow: hidden;
+    width: 90%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-left: 2em;
+}
+#bar_ten{
+    margin-top: 1px;
+    height: 240px;
+}
+.oversea_trade_title{
+    margin-bottom: 0;
+}
+.outer_under .oversea_trade {
+    height: 280px;
+    border: 1px solid #f3f3f3;
+}
+#img {
+    height: 50%;
+    width: 50%;
+}
+#img_oz {
+    height: 250px;
+}
+#img_yz {
+    height: 250px;
+}
+#img_mz {
+    height: 250px;
+}
+/* 疫情实时播报 */
+.epidemic_dynamic .container .clearfix{
+    background:#1c669d;
+}
+.epidemic_dynamic .container .main{
+    background: #fff;
+
+}
+/* 第二页的组件切换 */
+.outer_under  .nav nav-tabs{
+
+}
